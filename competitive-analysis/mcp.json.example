@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "dart-openapi": {
+      "command": "node",
+      "args": ["/YOUR/LOCAL/PATH/competitive-analysis/mcp-servers/dart-openapi/index.js"],
+      "env": {
+        "DART_API_KEY": "YOUR_DART_API_KEY"
+      }
+    },
+    "sec-edgar": {
+      "command": "node",
+      "args": ["/YOUR/LOCAL/PATH/competitive-analysis/mcp-servers/sec-edgar/index.js"],
+      "env": {
+        "SEC_USER_AGENT": "Your Name your@email.com"
+      }
+    },
+    "kipris": {
+      "command": "node",
+      "args": ["/YOUR/LOCAL/PATH/competitive-analysis/mcp-servers/kipris/index.js"],
+      "env": {
+        "KIPRIS_API_KEY": "YOUR_KIPRIS_API_KEY"
+      }
+    },
+    "alpha-vantage": {
+      "command": "node",
+      "args": ["/YOUR/LOCAL/PATH/competitive-analysis/mcp-servers/alpha-vantage/index.js"],
+      "env": {
+        "ALPHA_VANTAGE_API_KEY": "YOUR_ALPHA_VANTAGE_API_KEY"
+      }
+    }
+  }
+}
